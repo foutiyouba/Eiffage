@@ -7,7 +7,8 @@ public class Voiture {
     private String nomVoiture;
     private Employe employe;
 
-    public Voiture(Integer id, Short code, String nomVoiture, Employe employe) {
+    public Voiture(Integer id, Short code,
+                   String nomVoiture, Employe employe) {
         this.id = id;
         this.code = code;
         this.nomVoiture = nomVoiture;
